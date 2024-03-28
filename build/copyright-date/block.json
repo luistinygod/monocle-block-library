@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "monocle/copyright-date",
+  "version": "0.1.0",
+  "title": "Monocle copyright date",
+  "category": "widgets",
+  "description": "Add a copyright date to your site.",
+  "example": {},
+  "supports": {
+    "color": {
+      "background": false,
+      "text": true
+    },
+    "html": false,
+    "multiple": false,
+    "typography": {
+      "fontSize": true
+    }
+  },
+  "attributes": {
+    "showStartingYear": {
+      "type": "boolean",
+      "default": true
+    },
+    "startingYear": {
+      "type": "string",
+      "default": "1978"
+    },
+    "copyrightText": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "textdomain": "monocle",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}
