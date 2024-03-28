@@ -10,8 +10,9 @@ This is a WordPress plugin. To install it, download the zip file and upload it t
 
 ## Usage
 
-To use this block, you need to add it to a post or page. You can then select the type of related articles you want to display, using the block configuration in the side panel.
+This plugin adds a new category of blocks to the Monocle theme. You can use these blocks to create custom layouts for your posts and pages.
 
-![Screenshot of the editor view](./screenshots/editor-view.png)
+Blocks included in this plugin:
 
-![Screenshot of the block configuration](./screenshots/editor-configuration.png)
+- **Monocle Related Articles**: This block displays a list of related articles based on the categories/tags/post type of the current post, or it allows you to manually select the articles to display.
+- **Monocle Copyright Date**: This block displays the current year, which is useful for copyright notices.
